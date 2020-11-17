@@ -36,4 +36,5 @@ Simple example in folder scroll-snap JS.
 
 - https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type
 - https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align
+- https://medium.com/frontend-digest/creating-a-slide-show-with-css-scroll-snapping-92efa93691b4
 - https://24ways.org/2019/beautiful-scrolling-experiences-without-libraries/
