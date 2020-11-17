@@ -2,7 +2,7 @@
 
 Modern scrolling experiences with polyfill fallback.
 
-# Scroll snapping with CSS
+# 1. Scroll snapping with CSS
 
 Two main CSS property enable scroll snapping behavour: _scroll-snapp-type_ and _scroll-snap-align_.
 
@@ -15,9 +15,21 @@ Two main CSS property enable scroll snapping behavour: _scroll-snapp-type_ and _
 - _mandatory_: User stops scrolling -> always snap to nearest snap point
 - _proximity_: User stops scrolling -> only snap if scrolling position in proximity of snap point
 
-# Sources and further reading material
+Full property list @ https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type
+
+**scroll-snap-align**
+
+- Is applied to children of scroll snap container
+- Specifies the box’s snap position as an alignment of its snap area (as the alignment subject) within its snap container’s snapport (as the alignment container)
+- Keywords: _none_, _start end_ and _center_
+- The two values specify the snapping alignment in the block axis and inline axis, respectively. If only one value is specified, the second value defaults to the same value.
+
+Full property list @ https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align
+
+# 2. Sources and further reading material
 
 - https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type
+- https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align
 - https://24ways.org/2019/beautiful-scrolling-experiences-without-libraries/
 
 https://stackoverflow.com/questions/13756236/how-can-i-snap-scroll-to-the-nearest-predefined-position
