@@ -28,11 +28,11 @@ Full property list @ https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-sna
 
 # 2. scroll-snap JS library
 
-There can be two main reason to use any scroll snap library instead of the native css solution: they work in all modern browsers and have a customizable configuration to allow custom timing in transitions and scrolling detection. In this example scroll snapping will be enabled with scroll-snap from lucafalasco [github](https://github.com/lucafalasco/scroll-snap). [Demo][https://lucafalasco.github.io/scroll-snap/] and [Code Sandbox][https://codesandbox.io/s/n2ynjj8lj] from the author. Follow docs of author for usage and installation.
+There can be two main reason to use any scroll snap library instead of the native css solution: they work in all modern browsers and have a customizable configuration to allow custom timing in transitions and scrolling detection. In this example scroll snapping will be enabled with scroll-snap from lucafalasco [github](https://github.com/lucafalasco/scroll-snap). [Demo](https://lucafalasco.github.io/scroll-snap/) and [Code Sandbox](https://codesandbox.io/s/n2ynjj8lj) from the author. Follow docs of author for usage and installation.
 
 Simple example in folder scroll-snap JS.
 
-# 2. Sources and further reading material
+# 3. Sources and further reading material
 
 - https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type
 - https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align
