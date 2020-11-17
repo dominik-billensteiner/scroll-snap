@@ -2,6 +2,16 @@
 
 Modern scrolling experiences with polyfill fallback.
 
+# Scroll snapping with CSS
+
+Two main CSS property enable scroll snapping behavour: _scroll-snapp-type_ and _scroll-snap-align_.
+
+**scroll-snapp-type**
+
+- Applies to the scroll container element (must have fixed height)
+- Tells the browser the direction to snapp and wether snapping is mandatory
+- Takes two keyword values: x/y and mandatory/proximity
+
 # Source-Links
 
 https://24ways.org/2019/beautiful-scrolling-experiences-without-libraries/
