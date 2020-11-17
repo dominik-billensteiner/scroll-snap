@@ -1,6 +1,6 @@
 # scroll-snap
 
-Modern scrolling experiences with polyfill fallback.
+Modern scroll snapping feature with CSS or a JS library.
 
 # 1. Scroll snapping with CSS
 
@@ -26,7 +26,7 @@ Full property list @ https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-sna
 
 Full property list @ https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align
 
-# 2. Consistent cross-browser-behaviour with scroll-snap JS library
+# 2. scroll-snap JS library
 
 There can be two main reason to use any scroll snap library instead of the native css solution: they work in all modern browsers and have a customizable configuration to allow custom timing in transitions and scrolling detection. In this example scroll snapping will be enabled with scroll-snap from lucafalasco [github](https://github.com/lucafalasco/scroll-snap). [Demo][https://lucafalasco.github.io/scroll-snap/] and [Code Sandbox][https://codesandbox.io/s/n2ynjj8lj] from the author. Follow docs of author for usage and installation.
 
@@ -37,9 +37,3 @@ Simple example in folder scroll-snap JS.
 - https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type
 - https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align
 - https://24ways.org/2019/beautiful-scrolling-experiences-without-libraries/
-
-https://stackoverflow.com/questions/13756236/how-can-i-snap-scroll-to-the-nearest-predefined-position
-https://github.com/ckrack/scrollsnap-polyfill
-https://stackoverflow.com/questions/31245252/how-to-emulate-css-scroll-snap-points-in-chrome#33149981
-https://github.com/lucafalasco/scroll-snap
-https://lucafalasco.github.io/scroll-snap/
